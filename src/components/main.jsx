@@ -30,14 +30,14 @@ const Main = () => {
           alt="bg-curvy-desktop"
           className="hidden md:block absolute w-full bottom-0"
         />
-        <p className="text-center font-bold text-[27px] z-10 relative m-auto">
+        <p className="text-center font-bold text-[27px] z-10 relative m-auto font-Ralway max-w-[500px]">
           All your files in one secure location, accessible anywhere.
         </p>
       </div>
       <main className="text-center mt-5">
         <section className="relative p-4 ">
           <div>
-            <p className="max-w-[400px] text-base mx-auto ">
+            <p className="max-w-[500px] text-base mx-auto ">
               Fylo stores all your most important files in one secure location. Access
               them wherever you need, share and collaborate with friends family, and
               co-workers.
@@ -84,7 +84,7 @@ const Main = () => {
         <section className="p-4 text-start md:flex gap-10 justify-center md:w-4/5 mx-auto items-center">
           <img src="./images/illustration-stay-productive.png" alt="stay-productive" />
           <div className="max-w-[400px]">
-            <h2 className=" font-bold mt-10 mb-5 text-xl md:text-4xl">
+            <h2 className=" font-bold mt-10 mb-5 text-xl md:text-4xl font-Ralway">
               Stay productive, wherever you are
             </h2>
             <p className="my-5 md:text-lg">
@@ -156,7 +156,9 @@ const Main = () => {
         </section>
         <section className="  min-h-[400px]">
           <div className="bg-introAndEmail rounded-md w-11/12 mx-auto relative p-5 top-[230px]">
-            <h2 className="text-lg md:text-3xl my-5">Get early access today</h2>
+            <h2 className="text-lg md:text-3xl my-5 font-Ralway">
+              Get early access today
+            </h2>
             <p className="max-w-[800px] mx-auto">
               It only takes a minute to sign up and our free starter tier is extremely
               generous. If you have any questions, our support team would be happy to
