@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-mainBackground;
+}
+/* header */
+.header {
+  @apply bg-introAndEmail text-white p-4;
+}
+.header ul li {
+  @apply relative cursor-pointer;
+}
+.header ul li:after {
+  content: "";
+  @apply w-0 absolute -bottom-0.5 h-0.5 left-0 bg-white transition-all;
+}
+.header ul li:hover::after {
+  @apply w-full;
+}
+/*  */
+
+/* main */
+.services {
+  @apply flex w-full  flex-wrap items-center justify-center  gap-10 p-4 lg:w-[60%] mx-auto;
+}
+.services div {
+  @apply mx-auto w-auto md:w-[45%];
+}
+.services img {
+  @apply mx-auto w-fit;
+}
+.services h2 {
+  @apply my-2 text-xl font-bold max-w-[350px] mx-auto;
+}
+.services p {
+  @apply max-w-[350px] mx-auto;
+}
+.testmonials > div {
+  @apply p-5 bg-testimonialsBackground w-11/12 md:w-[30%] mx-auto my-10 rounded-md;
+}
+.testmonials > div > div {
+  @apply flex items-center gap-2 mt-10;
+}
+.testmonials > div div h3 {
+  @apply text-sm font-bold;
+}
+.testmonials > div div p {
+  @apply text-xs md:text-lg;
+}
+.testmonials > div div img {
+  @apply w-[40px] rounded-full;
+}
+/*  */
+/* main */
+main section a:hover img {
+  @apply grayscale;
+}
+/*  */
+/* footer */
+footer div:first-of-type p {
+  @apply flex items-start gap-4 my-5;
+}
+footer div:first-of-type p span img {
+  @apply w-5 max-w-none;
+}
+footer div h1 {
+  @apply font-bold text-lg;
+}
+footer article section > div:nth-of-type(3) *,
+footer article section > div:nth-of-type(2) * {
+  @apply my-5;
+}
+footer article section > div:last-of-type i {
+  @apply w-8 h-8 rounded-full border-2 border-white flex items-center justify-center;
+}
+/*  */
