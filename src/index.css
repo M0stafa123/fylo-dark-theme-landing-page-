@@ -79,6 +79,9 @@ footer article section > div:nth-of-type(2) * {
   @apply my-5;
 }
 footer article section > div:last-of-type i {
-  @apply w-8 h-8 rounded-full border-2 border-white flex items-center justify-center;
+  @apply w-8 h-8 rounded-full border-2 border-white flex items-center justify-center transition-all;
+}
+footer article section > div:last-of-type i:hover {
+  @apply text-Cyan;
 }
 /*  */
