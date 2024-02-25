@@ -40,6 +40,7 @@ body {
   @apply max-w-[450px] mx-auto;
 }
 .testmonials > div {
+  box-shadow: 0 0 9px 0 hsl(216deg 16.95% 23.02%);
   @apply p-5 bg-testimonialsBackground w-11/12 md:w-[30%] mx-auto my-10 rounded-md;
 }
 .testmonials > div > div {
@@ -58,6 +59,9 @@ body {
 /* main */
 main section a:hover img {
   @apply grayscale;
+}
+main section:last-of-type > div {
+  box-shadow: 0 0 9px 0 hsl(216deg 16.95% 23.02%);
 }
 /*  */
 /* footer */

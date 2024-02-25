@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-footerBackground p-4 flex flex-col justify-end pt-96 md:pt-28 box-content md:justify-center px-10 h-[800px]">
+    <footer className="bg-footerBackground p-4 flex flex-col justify-end pt-[29rem] md:pt-28 box-content md:justify-center px-10 h-[800px]">
       <article className="w-11/12 mx-auto">
         <img src="./images/logo.svg" alt="logo" className="w-40" />
         <section className="flex md:justify-between gap-10 flex-wrap">
