@@ -168,7 +168,7 @@ const Main = () => {
               className="flex flex-wrap gap-5 items-center justify-center my-10"
               onSubmit={handleSubmit}
             >
-              <div className="w-11/12 md:w-2/4 flex-col flex relative">
+              <div className="w-11/12 md:w-2/4 flex-col mb-4 md:mb-0 flex relative">
                 <input
                   placeholder="email@example.com"
                   type="text"
@@ -176,12 +176,14 @@ const Main = () => {
                 />
 
                 {success && (
-                  <span className=" absolute -bottom-10 left-2 text-green-600">
+                  <span className="text-xs md:text-base absolute -bottom-5 md:-bottom-10 left-2 text-green-600">
                     {success}
                   </span>
                 )}
                 {fail && (
-                  <span className=" absolute -bottom-10 left-2 text-Err">{fail}</span>
+                  <span className="text-xs md:text-base absolute -bottom-5 md:-bottom-10 left-2 text-Err">
+                    {fail}
+                  </span>
                 )}
               </div>
 
